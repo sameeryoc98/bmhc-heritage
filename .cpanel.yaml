@@ -1,6 +1,6 @@
 deployment:
+  branch: main
+  directory: /home/yocadmin
   tasks:
-   - export DEPLOYPATH=bmhc.youronlineconversation.com
-    - export GIT_WORK_TREE=dist
-    - git --work-tree=$GIT_WORK_TREE checkout -f
-    - rsync -avz --delete dist/ /home/bmhc.youronlineconversation.com/
+    - /bin/rm -rf /home/yocadmin/https://bmhc.youronlineconversation.com/
+    - /bin/cp -r dist/* /home/yocadmin/https://bmhc.youronlineconversation.com/
