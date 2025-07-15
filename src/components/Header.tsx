@@ -278,7 +278,7 @@ const Header = () => {
           </NavigationMenu>
 
           <div className="hidden md:flex items-center space-x-4">
-            <Button className="bg-teal-600 hover:bg-teal-700 text-white">
+            <Button className="bg-rose-600 hover:bg-rose-700 text-white">
               <Heart className="h-4 w-4 mr-2" />
               Donate Now
             </Button>
