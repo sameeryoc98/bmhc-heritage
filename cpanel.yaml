@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export GIT_WORK_TREE=dist
+    - git --work-tree=$GIT_WORK_TREE checkout -f
+    - rsync -avz --delete dist/ /home/USERNAME/public_html/
