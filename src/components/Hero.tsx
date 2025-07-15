@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
           <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             Preserving Our 
-            <span className="text-teal-600"> Muslim Heritage &</span>
+            <span className="text-teal-600"> Muslim Heritage </span>
           </h1>
           <p className="text-lg lg:text-xl text-gray-600 mb-8 max-w-2xl">
             Discover the rich history and vibrant culture of Muslims in Britain. From historical artifacts to contemporary stories, we celebrate our shared heritage.
