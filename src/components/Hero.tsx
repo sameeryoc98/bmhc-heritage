@@ -67,7 +67,7 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute -inset-4 bg-teal-600 rounded-3xl blur opacity-20"></div>
             <img 
-              src="/public/hero.jpg"
+              src="/hero.jpg"
               alt="British Muslim Heritage Centre historic building"
               className="relative w-full h-96 lg:h-[500px] object-cover rounded-3xl shadow-2xl"
             />
