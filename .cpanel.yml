@@ -1,6 +1,6 @@
 deployment:
   branch: main
-  directory: /home/yocadmin
+  directory: /home/yocadmin/https://bmhc.youronlineconversation.com/
   tasks:
     - /bin/rm -rf /home/yocadmin/https://bmhc.youronlineconversation.com/
     - /bin/cp -r dist/* /home/yocadmin/https://bmhc.youronlineconversation.com/
