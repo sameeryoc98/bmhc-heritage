@@ -1,19 +1,20 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin, Calendar, Users } from "lucide-react";
+import HistoricBuildingSlider from "./HistoricBuildingSlider";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen bg-teal-50">
+    <section className="relative bg-teal-50">
       {/* Background pattern */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%23129A9E%22%20fill-opacity%3D%220.05%22%3E%3Cpath%20d%3D%22M36%2034v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6%2034v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6%204V0H4v4H0v2h4v4h2V6h4V4H6z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
       
-      <div className="relative container mx-auto px-4 py-16 lg:py-24 flex flex-col lg:flex-row items-center min-h-screen">
+      <div className="relative container mx-auto px-4 py-16 lg:py-24 flex flex-col lg:flex-row items-center ">
         {/* Content */}
         <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
           <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Preserving Our 
-            <span className="text-teal-600"> Muslim Heritage </span>
+            Preserving Our
+            <span className="text-teal-600"> Muslim Heritage</span>
           </h1>
           <p className="text-lg lg:text-xl text-gray-600 mb-8 max-w-2xl">
             Discover the rich history and vibrant culture of Muslims in Britain. From historical artifacts to contemporary stories, we celebrate our shared heritage.
@@ -62,20 +63,9 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Image */}
+        {/* Historic Building Slider */}
         <div className="lg:w-1/2 lg:pl-12">
-          <div className="relative">
-            <div className="absolute -inset-4 bg-teal-600 rounded-3xl blur opacity-20"></div>
-            <img 
-              src="/hero.jpg"
-              alt="British Muslim Heritage Centre historic building"
-              className="relative w-full h-96 lg:h-[500px] object-cover rounded-3xl shadow-2xl"
-            />
-            <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-sm rounded-2xl p-4">
-              <h3 className="font-semibold text-gray-900 mb-1">Historic Building</h3>
-              <p className="text-sm text-gray-600">Home to centuries of Muslim heritage in Britain</p>
-            </div>
-          </div>
+          <HistoricBuildingSlider />
         </div>
       </div>
     </section>

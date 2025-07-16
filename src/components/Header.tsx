@@ -35,12 +35,12 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto px-4">
-        <div className="flex h-20 items-center justify-between">
-          {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <img src="/logo.png" alt="BMHC Heritage" className="h-auto w-32" />
-          </div>
+    <div className="container mx-auto px-4">
+      <div className="flex h-20 items-center justify-between">
+        {/* Logo */}
+        <div className="flex items-center space-x-2">
+          <img src="/logo.png" alt="BMHC Heritage" className="h-auto w-32" />
+        </div>
 
           {/* Desktop Navigation */}
           <NavigationMenu className="hidden md:flex">
@@ -369,7 +369,7 @@ const Header = () => {
                 Contact
               </a>
               <div className="pt-4 border-t">
-                <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
+                <Button className="w-full bg-rose-600 hover:bg-rose-700 text-white">
                   <Heart className="h-4 w-4 mr-2" />
                   Donate Now
                 </Button>

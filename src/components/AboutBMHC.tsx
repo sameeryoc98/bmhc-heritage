@@ -68,7 +68,7 @@ const AboutBMHC = () => {
             </div>
             <div className="relative">
               <img 
-                src="/unnamed.jpg" 
+                src="/our-mission.jpg" 
                 alt="BMHC interior exhibition space"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
               />

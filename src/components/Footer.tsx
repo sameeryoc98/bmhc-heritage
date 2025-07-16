@@ -44,7 +44,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand & Contact */}
           <div className="lg:col-span-1">
-           <img src="/public/logo-white.png" alt="BMHC Heritage" className="mb-4 h-auto w-25" />
+          <img src="/public/logo-white.png" alt="BMHC Heritage" className="mb-4 h-auto w-25" />
+            <p className="text-gray-300 mb-6 leading-relaxed">
+              Preserving and celebrating the rich heritage of Muslims in Britain for over a millennium.
+            </p>
             
             <div className="space-y-3">
               <div className="flex items-center text-gray-300">
